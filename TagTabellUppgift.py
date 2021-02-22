@@ -57,7 +57,7 @@ def getDepartures():
 
     senasteStation.delete(0,"end")
 
-    senasteStationText.delete(1.0, "end")
+
 
     for dep in departures:
         stationer_text.insert(1., dep)
